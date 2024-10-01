@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: skyblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Quiz Section */
+.quiz-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Quiz Box Styling */
+.quiz {
+    background: linear-gradient( #67b3ed, #7622ce);
+    padding: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Questions Styling */
+.questions {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Options Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.answer {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+label {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ddd;
+}
+
+/* Button Styling */
+.btn {
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(#8b2cf0, #461a75 ,#447dc8);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #2575fc;
+    transform: translateY(-2px);
+}
+
+/* Result Styling */
+.result {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+.question i,
+label i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #ff6347; /* Color for icons */
+    vertical-align: middle; /* Align icon with text */
+}
+
+.btn button i {
+    margin-right: 5px; /* Space between icon and button text */
+}
